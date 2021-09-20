@@ -1,12 +1,15 @@
+// Inserir o nome do evento.
 var nomeEvento = "Cosmos Lecture"
 console.log("Palestra: " + nomeEvento)
 console.log("")
 
+// Inserir dia, mês e ano do evento.
 var diaEvento = 10, mesEvento = 12, anoEvento = 2021
 mesEvento = mesEvento -1
 
 CompDatas()
 
+// Função para comparar datas.
 function CompDatas() { 
 
     var dataAtual = new Date()
@@ -22,10 +25,11 @@ function CompDatas() {
     }    
  }    
 
-
-let listaPalestrantes = ["Neil deGrasse Tyson", "Richard Dawkins"]
+// Inserir o nome do palestrante.
+ let listaPalestrantes = ["Neil deGrasse Tyson", "Richard Dawkins"]
 console.log("Palestrante(s): " + listaPalestrantes)
 
+// Inserir idade do participante.
 var idadeParticipante = 18
 if (idadeParticipante >= 18) {
     
@@ -35,6 +39,7 @@ if (idadeParticipante >= 18) {
 }
 
 
+// Inserir nome do participante.
 var nomeParticipante
 
 let listaParticipantes = ["Leonardo", "Leticia", "Ana", "Antonio"]
